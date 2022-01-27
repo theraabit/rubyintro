@@ -14,3 +14,13 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk","eggs", "bacon", "beer"]
+friend_list = ["beer", "cookies", "apples"]
+
+shopping_list = my_list + friend_list
+
+unique_comined_list = shopping_list.uniq
+
+sorted_unique_list = unique_comined_list.sort
+puts sorted_unique_list
